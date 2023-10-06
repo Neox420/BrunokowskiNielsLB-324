@@ -1,3 +1,11 @@
+---
+name: Funktionalität
+about: 'Anforderung für neue Funktionalität formulieren'
+title: "[Zielsystem] | [Priorität] | [Systemaktivität] | [Allf. Ergänzungen] | [Funktionalität] | [Bedingungen]"
+labels: ''
+assignees: ''
+---
+
 **Zielsystem:** [Hier das betroffene (Teil-)System angeben]
 
 **Priorität:** [Hier "muss" bei hoher, "soll" bei mittlerer und "wird" bei niedriger Priorität angeben]
@@ -9,6 +17,7 @@
 **Funktionalität:** [Hier die gewünschte Funktionalität detailliert beschreiben.]
 
 **Bedingungen:** [Hier zeitliche Bedingungen mit "wenn" und logische Bedingungen mit "falls" beschreiben, wenn sie relevant sind.]
+
 
 Beispiel:
 
