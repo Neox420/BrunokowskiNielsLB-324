@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, session, flash
+﻿from flask import Flask, render_template, request, redirect, url_for, session, flash
 from datetime import datetime
 from dataclasses import dataclass
 import os
@@ -15,6 +15,7 @@ entries = []
 @dataclass
 class Entry:
     content: str
+    happiness: str
     timestamp: datetime = datetime.now()
 
 
@@ -46,8 +47,9 @@ def logout():
 @app.route("/add_entry", methods=["POST"])
 def add_entry():
     content = request.form.get("content")
+    happiness = request.form.get("happiness")
     if content:
-        entry = Entry(content=content)
+        entry = Entry(content=content, happiness="😀")
         entries.append(entry)
     return redirect(url_for("index"))
 
