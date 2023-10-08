@@ -1,9 +1,10 @@
 ---
 name: Funktionalität
 about: 'Anforderung für neue Funktionalität formulieren'
-title: "[Zielsystem] | [Priorität] | [Systemaktivität] | [Allf. Ergänzungen] | [Funktionalität] | [Bedingungen]"
-labels: ''
+title: ["[Zielsystem] | [Priorität] | [Systemaktivität] | [Allf. Ergänzungen] | [Funktionalität] | [Bedingungen]"]
+labels: ["Funktionale Anforderung", "Qualitätsanforderung", "Randanforderung"]
 assignees: ''
+
 ---
 
 **Zielsystem:** [Hier das betroffene (Teil-)System angeben]
